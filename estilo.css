@@ -1,0 +1,73 @@
+
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o container principal */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2980b9; /* Azul */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o título */
+h1 {
+    text-align: center;
+    color: #fff; /* Branco */
+}
+
+/* Estilos para o formulário */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; /* Branco */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f39c12; /* Amarelo */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67e22; /* Amarelo mais escuro */
+}
+
+/* Estilos para o resultado */
+.resultado {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resultado p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Branco */
+}
