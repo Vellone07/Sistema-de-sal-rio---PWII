@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2>Calculadora de Salário</h2>
+    <form method="post" action="calcular_salario.php">
+        <label for="nome">Nome do Funcionário:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+       
+        <label for="semana1">Venda Semanal (Semana 1):</label><br>
+        <input type="number" id="semana1" name="semana1" required><br><br>
+       
+        <label for="semana2">Venda Semanal (Semana 2):</label><br>
+        <input type="number" id="semana2" name="semana2" required><br><br>
+       
+        <label for="semana3">Venda Semanal (Semana 3):</label><br>
+        <input type="number" id="semana3" name="semana3" required><br><br>
+       
+        <label for="semana4">Venda Semanal (Semana 4):</label><br>
+        <input type="number" id="semana4" name="semana4" required><br><br>
+       
+        <label for="total_mes">Total de Vendas no Mês:</label><br>
+        <input type="number" id="total_mes" name="total_mes" required><br><br>
+       
+        <input type="submit" value="Calcular Salário">
+    </form>
+</body>
