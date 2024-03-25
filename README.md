@@ -23,8 +23,7 @@ Se o vendedor exceder a meta mensal de vendas, ele receberá um bônus adicional
 O resultado do cálculo é exibido abaixo do formulário.  
 
 🎨 Personalização  
-Você pode personalizar o estilo da calculadora alterando o arquivo styles.css. Sinta-se à vontade para modificar as cores, fontes, tamanhos e outros aspectos visuais de acordo com suas preferências.  
-
+Você pode personalizar o estilo da calculadora alterando o arquivo estilo.css.   
 ✍️ Autor  
 Este projeto foi desenvolvido por [Davi Vellone].  
 
